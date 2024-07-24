@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepal Travel Guide</title>
+    <link rel="stylesheet" href="style.css">
+  
+    <style>
+    
+/*.destinations-page{
+   /* background-image: url("./aboutpokhara.jpg");
+   width:100%;
+    height: 70vh;
+     overflow: hidden; 
+    background-image:linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding:0 5%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.page-img {
+  position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    top:0;
+     display: block;
+    z-index: -1;
+}
+.page-content{
+    text-align: center;
+    margin-left: 350px;
+    font-size: 5rem;
+    font-weight: 800;
+    color: black;
+
+
+}
+
+.main-page{
+    max-width: 75%;
+    padding: 5rem 1.5rem;
+    display: block;
+    margin: auto;
+}
+
+.main-page h2{
+  font-size: 20px;
+  padding: 9px 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.main-page p{
+  font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: justify;
+ 
+}*/
+.page-content h1{
+    font-size: 40px;
+    font-weight: 450;
+    margin-top: 50px;
+    padding-top: 20px;;
+    text-align: center;
+    font-family: Satisfy;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0d5770;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: beige;
+  padding: 20px;
+  width: 70%;
+  margin: 30px auto;
+}
+
+
+    </style>
+</head>
+<body>
+  <section class="nav-bar">
+    <div class="logo"> <a href="index.html" class="logo">
+      Travel Nepal
+      <img src="everest.png" height="50px" width="50px" border-radius="20px"> </a> </div>
+
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#aboutus">About Us</a></li>
+        <li><a href="index.html#destinations">Destinations</a></li>
+        <li><a href="contactform.html">Feedback</a></li>
+    </ul>
+  </div>
+    </section>
+
+    <section class="destinations-page">
+        
+        <div class="page-content">
+            <h1>Give Us a Feedback</h1>
+        </div>
+    </section>
+
+    
+    <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="nepal">Nepal</option>
+            <option value="japan">Japan</option>
+            <option value="india">India</option>
+            <option value="china">China</option>
+            <option value="srilanka">Sri-Lanka</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      
+    
+        
+   
+
+
+
+
+
+
+    
+    <footer>
+      <div class="footer">
+        <div class="column logo">
+          <a href="index.html" class="logo">
+            Travel Nepal
+            <img src="everest.png" height="50px" width="50px" border-radius="20px"> </a>
+        </div>
+
+        <div class="column contact">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              email:
+        <a href="mailto:travelnepal@gmail.com">travelnepal@gmail.com</a>
+            </li>
+            <li>
+              phone:
+              +080 9777 0000
+            </li>
+          </ul>
+        </div>
+        <div class="column location"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104545.33616563532!2d135.6268736972656!3d35.03068529999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001085a40096db1%3A0x8c895182522ac6d1!2sThe%20Kyoto%20College%20of%20Graduate%20Studies%20for%20Informatics!5e0!3m2!1sen!2sjp!4v1721560340319!5m2!1sen!2sjp" width="550" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+      <div class="copyright"></div>
+
+      <p style="text-align: center;">&copy; 2024 Travel Nepal</p>
+
+
+
+      </div>
+      
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
